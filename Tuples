@@ -1,0 +1,20 @@
+txt="Ernest Miller Hemingway was an American novelist,short-story writer, and journalist. 
+     His economical and understated style—which he termed the iceberg theory—had a strong influence on 20th-century fiction, 
+     while his adventurous lifestyle and public image brought him admiration from later generations"
+
+words=txt.split()
+
+for word in words:
+    t.append((len(word),word))
+
+t.sort(reverse=True)
+
+res=list()
+
+for lenght,word in t:
+    res.append(word)
+
+
+
+
+print(res)
